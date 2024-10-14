@@ -21,11 +21,11 @@ const EVENT_KIND = {
 
 const MAX_FILTER_LIMIT = 60;
 
-const owners = ["29320975df855fe34a7b45ada2421e2c741c37c0136901fe477133a91eb18b07"];
+const owners = ["12188a756171ebcda576f9793751c423737fffc2fe235ad8f9b17010067e6255"];
 
 // nip05user config should set like this:
 // ==> nip05User = {"nicename": "pubkey"};
-const nip05User = {"dashu": "29320975df855fe34a7b45ada2421e2c741c37c0136901fe477133a91eb18b07"};
+const nip05User = {"royalgarter": "12188a756171ebcda576f9793751c423737fffc2fe235ad8f9b17010067e6255"};
 const nip05UserJsonStr = JSON.stringify({"names": nip05User});
 
 const r2CustomDomain = '';
@@ -33,7 +33,7 @@ const r2CustomDomain = '';
 const relayInfo = {
 	"name": "cfrelay",
 	"description": "A relay run at cloudflare.",
-	"pubkey": "29320975df855fe34a7b45ada2421e2c741c37c0136901fe477133a91eb18b07",
+	"pubkey": "12188a756171ebcda576f9793751c423737fffc2fe235ad8f9b17010067e6255",
 	"software": "https://github.com/haorendashu/cfrelay",
 	"supported_nips": [1, 2, 5, 9, 11, 12, 16, 33, 42, 45, 50, 95, 96],
 	"version": "0.0.3",

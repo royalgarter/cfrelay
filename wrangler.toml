@@ -6,12 +6,15 @@ compatibility_flags = ["nodejs_compat"]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "relay"
-database_id = ""
+database_name = "cfrelay"
+database_id = "9c6dde12-06c8-45d0-be9f-025054b2549f"
 
 [[kv_namespaces]]
 binding = "KV"
-id = ""
+id = "e140bf41236247869143d52b2ca0d7ac"
+
+[observability]
+enabled = true
 
 # If you use the R2 for NIP-96, you should config this setting.
 # [[r2_buckets]]
